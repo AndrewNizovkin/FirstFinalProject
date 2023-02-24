@@ -36,7 +36,6 @@ void WriteArray(string[] array)
         Console.Write($"\"{array[i]}\", ");
     }
     Console.Write($"\"{array[array.Length - 1]}\"]");
-//    Console.WriteLine();
 }
 
 // Gets count of elements with lenth <= limiter
